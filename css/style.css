@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(219, 37, 37);
+    font-family: Concert One, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 30px 0 30px;
+}
+
+p {
+    padding: 5px 0 30px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
