@@ -1,12 +1,21 @@
+/*General*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-h1 {
-    color: rgb(219, 37, 37);
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
     font-family: Concert One, Helvetica, sans-serif;
+}
+
+/*Title and Pragraph*/
+h1 {
+    color: #FE0F60;
     font-size: 2em;
     padding: 30px 0 30px;
 }
@@ -15,9 +24,44 @@ p {
     padding: 5px 0 30px;
 }
 
-main {
-    margin: 0 auto;
-    max-width: 1000px;
+.font-weight-lighter {
+    font-family: lato;
+}
+
+/*Cards*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 22px;
+    row-gap: 40px;
+}
+
+.flex-item {
+    background-color: #131220;
+    flex-basis: 318.6666666666px;
     width: 100%;
-    text-align: center;
+    min-width: 250px;
+    display: flex;
+}
+
+.font-color {
+    color: white;
+}
+
+.link-color {
+    text-decoration: none ;
+    color: #00B4EA;
+    font-size: 13px;
+}
+
+img {
+    height: 90px;
+}
+
+.team-member-data {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 6px 10px;
+    justify-content: space-around;
 }
