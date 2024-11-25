@@ -10,5 +10,4 @@ Riproduzione di un micro layout contenente 6 cards di un ipotetico team. Partiam
 
 ## Screenshots
 
-
-
+![screen](https://github.com/user-attachments/assets/1ef66e08-ce09-413c-845f-ccf306fd835f)
